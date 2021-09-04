@@ -17,4 +17,6 @@ with open(filename,'rb') as fayl:
     anketa = fayl.read()        
     put_file(filename,content=anketa)
     hold()
+
+    
 # 90 411 3235 Barno xolam

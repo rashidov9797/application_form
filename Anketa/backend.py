@@ -2,7 +2,7 @@ from docxtpl import DocxTemplate
 
 
 
-def fillDoc(info,fayl="anketa.docx"):
+def fillDoc(info, fayl="anketa.docx"):
 
   anketa = DocxTemplate("anketa.docx")
   anketa.render(info)
